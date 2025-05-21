@@ -7,8 +7,8 @@ def tri_insertion(liste):
             liste[j+1] = liste[j]  # Décale l'élément vers la droite
             j= j-1  # Passe à l'élément précédent
             liste[j+1] = case_en_cours  # Place la valeur à la bonne position
-    return liste  # Retourne la liste triée
+    return liste  
 
-ma_liste = [18,12,22,7,55,25]  
-a=tri_insertion(ma_liste)  
-print(a)
+ma_liste = [18,12,22,7,55,25]  #définie une liste
+a=tri_insertion(ma_liste)  #appel de la fonction
+print(a) #affiche le résultat
